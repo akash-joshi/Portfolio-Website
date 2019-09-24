@@ -57,7 +57,7 @@
     .menu-branding .potrait {
       width: 250px;
       height: 250px;
-      background: url(../../img/potrait.jpg);
+      background: url(../../img/potrait.JPG);
       background-size: cover;
       border-radius: 50%;
       border: soild 3px #eece1a; }
@@ -104,7 +104,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url("../../img/afraz.jpg");
+    background: url("../../img/afraz.JPG");
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
