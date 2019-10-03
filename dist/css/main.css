@@ -57,7 +57,7 @@
     .menu-branding .potrait {
       width: 250px;
       height: 250px;
-      background: url(../../img/potrait.JPG);
+      background: url(/img/potrait.JPG);
       background-size: cover;
       border-radius: 50%;
       border: soild 3px #eece1a; }
@@ -104,7 +104,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url("../../img/afraz.JPG");
+    background: url("/img/afraz.JPG");
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -164,7 +164,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio"
+ "job1 job2 job3";
   grid-template-columns: 1fr 1fr 1fr; }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -276,7 +277,11 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage"
+ "bio"
+ "job1"
+ "job2"
+ "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
